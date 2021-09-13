@@ -22,8 +22,15 @@ while True:
     # (1,b'Lily',14,92.5)
     data = st.unpack(data)
 
+# 传入数据
+
     # 写入文件
     # info = "%d   %-10s  %d  %.1f\n" % data
+
  
+
+    info = "%d  %s  %d  %.1f"
+    f.flush()
+
 
 
