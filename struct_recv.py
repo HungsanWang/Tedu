@@ -24,9 +24,6 @@ while True:
 
     # 写入文件
     # info = "%d   %-10s  %d  %.1f\n" % data
-    info = "%d  %s  %d  %.1f" % (
-        data[0], data[1].decode().strip('\x00'), data[2], data[3])
-    f.write(info)
-    f.flush()
+ 
 
 
